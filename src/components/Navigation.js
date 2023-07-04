@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Fade } from "react-awesome-reveal";
+import Tooltip from '@mui/material/Tooltip';
+import Button from '@mui/material/Button';
 
 
 import '../styles/navigation.scss';
+
 // import { Tooltip } from 'element-react';
 
 class Navigation extends Component {
@@ -26,21 +28,42 @@ class Navigation extends Component {
     return (
       <div id="main">
         <div id="mySidenav" className={`sidenav ${isOpen ? 'open' : ''}`}>
-          <Fade>
-            {/* <Tooltip className="item" effect="dark" content="Top Left Center" placement="top-start"> */}
-
-            {/* <el-tooltip class="item" effect="dark" content="Right Center prompts info" placement="right"> */}
+          <Tooltip title="Home" placement="right">
+            <Button>
               <NavLink className={!isOpen ? "fa fa-fw fa-home" : "show-text"} to="/home">{isOpen ? "Home" : " "}</NavLink>
-            {/* </Tooltip> */}
+            </Button>
+            </Tooltip>
+
+          <Tooltip title="About" placement="right">
+            <Button>
             <NavLink className={!isOpen ? "fa fa-fw fa-info-circle" : "show-text"} to="/about">{ isOpen ? "About" : " " }</NavLink>
+            </Button>
+          </Tooltip>
+              <Tooltip title="Location" placement="right">
+                <Button>
             <NavLink className={ !isOpen ? "fa fa-fw fa-map-marker" : "show-text"} to="/location">{ isOpen ? "Location" : " " }</NavLink>
+                </Button>
+          </Tooltip>
+
+          <Tooltip title="FAQ" placement="right">
+            <Button>
             <NavLink className={ !isOpen ? "fa fa-fw fa-question-circle" : "show-text"} to="/faq">{ isOpen ? "FAQ" : " " }</NavLink>
+            </Button>
+          </Tooltip>
+
+          <Tooltip title="Connect" placement="right">
+            <Button>
             <NavLink className={ !isOpen ? "fa fa-fw fa-envelope" : "show-text"} to="/connect">{ isOpen ? "Connect" : " " }</NavLink>
+            </Button>
+          </Tooltip>
+
+
+
+
             <i onClick={this.toggleNav}
               className={!isOpen ? "closed-nav-tab fa fa-angle-double-right" : "opened-nav-tab fa fa-angle-double-left"}
             ></i>
 
-          </Fade>
         </div>
       </div>
     );
