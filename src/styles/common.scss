@@ -1,0 +1,32 @@
+// $primary-color: #FF0000;
+// $secondary-color: #00FF00;
+// $accent-color: #0000FF;
+// $text-color: #333333;
+
+@import url("//unpkg.com/element-ui@2.15.13/lib/theme-chalk/index.css");
+
+$blue: #3db4f5;
+$dark-blue: #175676;
+$black: #1a090d;
+$coral: #ff715b;
+$tan: #f1e0c5;
+$pink: #fcafa3;
+
+app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // flex-grow: 1;
+    /* Add more styles as needed */
+    background-color: $blue;
+
+    img {
+        width: 200px;
+    }
+}

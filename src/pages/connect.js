@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import Navigation from '../components/Navigation';
 import '../styles/connect.scss';
-import '../styles/global.scss';
+
 
 function connect() {
   return (

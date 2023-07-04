@@ -1,9 +1,2 @@
-@import 'global.scss';
+@import 'common.scss';
 
-.home {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-        /* Add more styles as needed */
-    background-color: $secondary-color;
-}

@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import '../styles/location.scss';
-import '../styles/global.scss';
 import Navigation from '../components/Navigation';
+
 
 function location() {
   return (

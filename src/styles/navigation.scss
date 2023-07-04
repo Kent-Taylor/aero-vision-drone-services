@@ -1,4 +1,7 @@
 /* The side navigation menu */
+@import 'common.scss';
+
+
 .sidenav {
     height: 100%;
     position: fixed;
@@ -16,21 +19,44 @@
         width: 250px;
         /* Set the desired width when the navigation bar is open */
     }
+
+    .active {
+        color: $coral;
+    }
+}
+
+.closed-nav-tab {
+    color: $coral;
+    position: fixed;
+    font-size: 1.5em;
+    left: 95px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.opened-nav-tab {
+    position: fixed;
+    left: 220px;
+    font-size: 1.5em;
+    color: $coral;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
 }
 
 /* The navigation menu links */
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 25px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 1.3em;
+    color: $blue;
     display: block;
     transition: 0.3s;
+    margin: 25px 0px;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: $coral;
 }
 
 /* Position and style the close button (top right corner) */

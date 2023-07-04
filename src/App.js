@@ -1,16 +1,18 @@
 import React from "react";
 import { ParallaxProvider } from 'react-scroll-parallax';
 
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from "./components/Header.js";
+
 import Home from './pages/home.js';
 import About from './pages/about.js';
 import Location from './pages/location.js';
 import Faq from './pages/faq.js';
 import Connect from './pages/connect.js';
 
-import './styles/global.scss';
+import './styles/common.scss';
 
-import logo from './logo.svg';
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
       <ParallaxProvider>
         <React.StrictMode>
           <Router>
+            <header>
+              <Header/>
+            </header>
             <Routes>
               <Route exact path='/' element={<Home />} />
               <Route path='/home' element={<Home />} />
@@ -28,7 +33,7 @@ function App() {
             </Routes>
           </Router>
         </React.StrictMode>
-      </ParallaxProvider>
+        </ParallaxProvider>
     </div>
 
   );
