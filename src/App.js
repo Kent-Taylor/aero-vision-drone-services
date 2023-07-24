@@ -11,7 +11,14 @@ import Location from './pages/location.js';
 import Faq from './pages/faq.js';
 import Connect from './pages/connect.js';
 
+
 import './styles/common.scss';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import Navigation from "./components/Navigation.js";
+
 
 
 function App() {
@@ -20,9 +27,6 @@ function App() {
       <ParallaxProvider>
         <React.StrictMode>
           <Router>
-            <header>
-              <Header/>
-            </header>
             <Routes>
               <Route exact path='/' element={<Home />} />
               <Route path='/home' element={<Home />} />

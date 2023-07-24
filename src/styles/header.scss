@@ -1,19 +1,10 @@
 @import 'common.scss';
 
-.header-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // flex-grow: 1;
-    /* Add more styles as needed */
-    background-color: $blue;
 
-    img {
-        width: 200px;
-        cursor: pointer;
-    }
+.header-page > header {
+    background-image: url('https://images.unsplash.com/photo-1682687218982-6c508299e107?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+}
 
-    img:hover {
-        filter: brightness(80%);
-    }
+.about-page > header {
+    background-image: url('https://images.unsplash.com/photo-1689890075754-f36045eaadc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80');
 }
