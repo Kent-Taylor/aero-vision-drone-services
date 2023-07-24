@@ -33,7 +33,9 @@ const ParentComponent = () => {
 
   return (
     <div>
-      {data && <BasicCard data={data} />}
+      {/* FIXME */}
+      {/* {data && <BasicCard data={data} />} */}
+      {{data}}
     </div>
   );
 };

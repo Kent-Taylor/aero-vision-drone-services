@@ -19,11 +19,9 @@ class Header extends Component {
 
     return (
         <div className="header-page">
-        <header className="home-header">
           <NavLink to="/home">
                 <img src={TransparentLogo} alt="aria germann counseling logo transparent png" />
           </NavLink>
-            </header>
         </div>
     );
   }
