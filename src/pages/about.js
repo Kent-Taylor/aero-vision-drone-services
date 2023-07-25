@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import Navigation from '../components/Navigation';
-import { Fade, Slide } from "react-awesome-reveal";
+// import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 import '../styles/about.scss';
 import TransparentLogo from '../images/ariaLogoTransparent.png'
