@@ -1,5 +1,4 @@
 // import logo from './logo.svg';
-import Navigation from '../components/Navigation';
 // import { Fade, Slide } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
 
@@ -10,7 +9,6 @@ import TransparentLogo from '../images/ariaLogoTransparent.png'
 function about() {
   return (
     <div className="about">
-      <Navigation/>
       <header className="about-header">
                <a href="/home" className="logo-link">
                 <img src={TransparentLogo} alt="aria germann counseling logo transparent png" />

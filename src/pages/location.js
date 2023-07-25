@@ -3,14 +3,12 @@
 import { Fade } from "react-awesome-reveal";
 
 import '../styles/location.scss';
-import Navigation from '../components/Navigation';
 import TransparentLogo from '../images/ariaLogoTransparent.png'
 
 
 function location() {
   return (
     <div className="location">
-      <Navigation />
 
       <header className="location-header">
                         <a href="/home" className="logo-link">
