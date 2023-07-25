@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-// import { Fade, Slide } from "react-awesome-reveal";
 
 import '../styles/navigation.scss';
 

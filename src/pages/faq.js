@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 import Navigation from '../components/Navigation';
+import { Fade, Slide } from "react-awesome-reveal";
+
 import '../styles/faq.scss';
+import TransparentLogo from '../images/ariaLogoTransparent.png'
 
 
 function faq() {
@@ -8,7 +11,16 @@ function faq() {
     <div className="faq">
         <Navigation/>
       <header className="faq-header">
-        <h1>faq Page</h1>
+                 <a href="/home" className="logo-link">
+                <img src={TransparentLogo} alt="aria germann counseling logo transparent png" />
+        </a>
+<Fade>
+        <h1 className='heading-name'>
+          <span className="blue-text"> F</span>requently
+          <span className="blue-text"> A</span>sked
+          <span className="blue-text"> Q</span>uestions
+        </h1>
+</Fade>
       </header>
     </div>
   );
