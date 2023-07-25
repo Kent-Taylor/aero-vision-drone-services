@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
-import { Fade, Slide } from "react-awesome-reveal";
+// import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 import Navigation from '../components/Navigation';
 import '../styles/connect.scss';
