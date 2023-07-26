@@ -79,3 +79,19 @@ header {
 }
 
 
+@media screen and (max-width: 440px) {
+.home-header ,
+    .about-header ,
+    .location-header ,
+    .faq-header ,
+    .connect-header  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+        img {
+            position:inherit;
+        }
+    }
+}

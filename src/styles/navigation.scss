@@ -83,9 +83,16 @@
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 440px) {
     .sidenav {
         padding-top: 15px;
+        width: 0px;
+        padding: 5px;
+        left: -15px;
+    }
+
+    .closed-nav-tab {
+        left: 10px;
     }
 
     .sidenav a {
