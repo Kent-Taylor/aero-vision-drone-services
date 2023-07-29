@@ -1,6 +1,5 @@
-// import logo from './logo.svg';
 import { Fade, Slide } from "react-awesome-reveal";
-// import { Fade } from "react-awesome-reveal";
+import Subscribe from "../components/Subscribe";
 
 import '../styles/home.scss';
 // import BasicCard from '../components/BasicCard';
@@ -48,12 +47,10 @@ function home() {
 
         <section className="section-two">
           <Fade>
-            <Slide>
               <div className="left-square">
-                <div>
                 {/* image here */}
-                </div>
               </div>
+            <Slide>
               <article className="right-square">
                 <header>
                   <h1>Together, we embark on a rewarding journey</h1>
@@ -71,6 +68,11 @@ function home() {
             </Slide>
           </Fade>
         </section>
+
+        <section className="section-three">
+          <Subscribe/>
+        </section>
+
           </main>
     </div>
   );
