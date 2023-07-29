@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
-// import { Fade, Slide } from "react-awesome-reveal";
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
+// import { Fade } from "react-awesome-reveal";
 
 import '../styles/home.scss';
 // import BasicCard from '../components/BasicCard';
@@ -21,7 +21,57 @@ function home() {
         </Fade>
 
         </header>
-          {/* <BasicCard/> */}
+      <main className="home-main">
+        <section className="section-one">
+          <Fade>
+        <Slide>
+          <article className="left-square">
+            <header>
+              <h1>Together, we embark on a rewarding journey</h1>
+            </header>
+              <p>We support you as you create YOUR second story; a new and healthy narrative about your life. Second Story Counseling is committed to providing high-quality therapy to people in all stages:</p>
+              <ul>
+                <li>Individual Counseling for Adults</li>
+                <li>Individual Counseling for Adolescents</li>
+                <li>Individual Counseling for Children</li>
+                <li>Marriage Counseling</li>
+                <li>Premarital Counseling</li>
+                <li>DBT Groups for Adolescents and Adults</li>
+              </ul>
+            </article>
+        </Slide>
+          </Fade>
+              <div className="right-square">
+                {/* right side */}
+              </div>
+        </section>
+
+        <section className="section-two">
+          <Fade>
+            <Slide>
+              <div className="left-square">
+                <div>
+                {/* image here */}
+                </div>
+              </div>
+              <article className="right-square">
+                <header>
+                  <h1>Together, we embark on a rewarding journey</h1>
+                </header>
+                  <p>We support you as you create YOUR second story; a new and healthy narrative about your life. Second Story Counseling is committed to providing high-quality therapy to people in all stages:</p>
+                  <ul>
+                    <li>Individual Counseling for Adults</li>
+                    <li>Individual Counseling for Adolescents</li>
+                    <li>Individual Counseling for Children</li>
+                    <li>Marriage Counseling</li>
+                    <li>Premarital Counseling</li>
+                    <li>DBT Groups for Adolescents and Adults</li>
+                  </ul>
+                </article>
+            </Slide>
+          </Fade>
+        </section>
+          </main>
     </div>
   );
 }
