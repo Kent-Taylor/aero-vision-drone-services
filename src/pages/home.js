@@ -27,7 +27,9 @@ function home() {
           <article className="left-square">
             <header>
               <h1>Together, we embark on a rewarding journey</h1>
-            </header>
+                </header>
+              <div className="content">
+
               <p>We support you as you create YOUR second story; a new and healthy narrative about your life. Second Story Counseling is committed to providing high-quality therapy to people in all stages:</p>
               <ul>
                 <li>Individual Counseling for Adults</li>
@@ -36,7 +38,8 @@ function home() {
                 <li>Marriage Counseling</li>
                 <li>Premarital Counseling</li>
                 <li>DBT Groups for Adolescents and Adults</li>
-              </ul>
+                  </ul>
+              </div>
             </article>
         </Slide>
           </Fade>
@@ -50,11 +53,10 @@ function home() {
               <div className="left-square">
                 {/* image here */}
               </div>
-            <Slide>
               <article className="right-square">
                 <header>
                   <h1>Together, we embark on a rewarding journey</h1>
-                </header>
+              </header>
                   <p>We support you as you create YOUR second story; a new and healthy narrative about your life. Second Story Counseling is committed to providing high-quality therapy to people in all stages:</p>
                   <ul>
                     <li>Individual Counseling for Adults</li>
@@ -65,7 +67,6 @@ function home() {
                     <li>DBT Groups for Adolescents and Adults</li>
                   </ul>
                 </article>
-            </Slide>
           </Fade>
         </section>
 

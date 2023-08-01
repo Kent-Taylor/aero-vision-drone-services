@@ -21,8 +21,8 @@ app {
     font-family: 'Quicksand', sans-serif;
 }
 
-main {
-    // margin: 42px 140px;
+body, html {
+    overflow-x: hidden;
 }
 
 h1 {
@@ -30,6 +30,10 @@ h1 {
     font-size: 2.8em;
     text-align: center;
     color: $dark-blue;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -55,7 +59,7 @@ header {
     }
 
     img:hover {
-        filter: brightness(80%);
+        filter: brightness(94%);
     }
 
     .heading-name {
@@ -71,22 +75,28 @@ header {
 
 .home-header {
     background-image: url('https://images.unsplash.com/photo-1682687218982-6c508299e107?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    box-shadow: inset 0px 0px 30px 10px #000000;
+
 }
 
 .about-header {
     background-image: url('https://images.unsplash.com/photo-1689890075754-f36045eaadc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80');
+    box-shadow: inset 0px 0px 30px 10px #000000;
 }
 
 .location-header {
     background-image: url('https://images.unsplash.com/photo-1686588216453-1ba2e872efa2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80');
+    box-shadow: inset 0px 0px 30px 10px #000000;
 }
 
 .faq-header {
     background-image: url('https://images.unsplash.com/photo-1690132778944-08060239d471?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
+    box-shadow: inset 0px 0px 30px 10px #000000;
 }
 
 .connect-header {
     background-image: url('https://images.unsplash.com/photo-1682254739590-bb652d6e768f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80');
+    box-shadow: inset 0px 0px 30px 10px #000000;
 }
 
 
