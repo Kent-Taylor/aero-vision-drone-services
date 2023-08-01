@@ -5,34 +5,63 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
 }
 
 
 .home-main {
     .section-one{
-        padding: 150px 170px;
-        // background: #e2e8f0;
-        background: $tan;
+        padding: 150px 210px;
+        background: #175676;
         display: grid;
-        gap: 60px;
+        gap: 75px;
         grid-template-columns: 1fr 1fr;
+        height: 475px;
 
         .left-square {
             outline: 8px double $pink ;
-            outline-offset: 15px;
+            outline-offset: 25px;
             display: flex;
             justify-content: center;
             flex-direction: column;
             align-items: center;
             height: 500px;
+            width: 500px;
+            border-radius: 50px;
 
+            .content {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                background-color: #0000006b;
+                color: white;
+                margin: 25px;
+                font-family: 'Quicksand', sans-serif;
+                box-shadow: 0px 10px 30px 10px #000000;
+                border-radius: 50px;
+                background: linear-gradient(145deg, #195c7e, #154d6a);
+                box-shadow:  20px 20px 60px #144964,
+                             -20px -20px 60px #1a6388;
+                height: 400px;
+                width: 400px
+
+                p {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
 
             h1 {
-                font-family: 'Dancing Script', cursive;
+                font-family: "Dancing Script", cursive;
                 font-size: 2.8em;
                 text-align: center;
-                color: $dark-blue;
+                color: white;
+                white-space: pre-line;
+                line-height: 52px;
+            }
+
+            p {
+                padding: 15px;
             }
         }
 
@@ -41,9 +70,10 @@
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
-            height: 100%;
-            height: 500px;
-
+            max-height: inherit;
+            min-width: 250px;
+            max-width: 300px;
+            box-shadow: 0px 10px 30px 18px rgba(0,0,0,0.75);
         }
 
     }
@@ -121,8 +151,33 @@
 @media screen and (max-width: 440px) {
     .home-main {
         .section-one{
-            padding: 70px;
-            grid-template-columns: 1fr;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            padding: 0px;
+            height: 1500px;
+
+
+            .left-square {
+                -webkit-order: 2; /* Vendor prefix for Safari */
+                order: 2;
+                height: 625px;
+                width: 300px;
+                margin: 0px;
+
+
+                h1 {
+                    font-size: 2em;
+                }
+            }
+
+            .right-square{
+                -webkit-order: 1; /* Vendor prefix for Safari */
+                order: 1;
+                height: 550px;
+                width: 90%;
+            }
         }
     }
 }
