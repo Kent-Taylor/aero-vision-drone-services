@@ -11,6 +11,7 @@ import Faq from './pages/faq.js';
 import Connect from './pages/connect.js';
 
 
+
 import './styles/common.scss';
 // import './styles/home.scss';
 // import './styles/about.scss';
