@@ -63,7 +63,8 @@ function Home() {
 
           </Fade>
         </section>
-        <section>
+        <section className="slideshow-section">
+          <h1 className="specialties-header">Specialties</h1>
           <SlideShow/>
         </section>
         <section className="section-one">
