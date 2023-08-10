@@ -2,7 +2,6 @@
 
 .slideshow-container {
     position: relative;
-    // width: 70%;
     max-width: 60vw; /* Adjust as needed */
     margin: 0 auto;
     padding: 42px;
@@ -12,12 +11,7 @@
 
   .slide {
     display: flex;
-    // justify-content: center;
-    // align-items: center;
     width: 100%; /* Set slide container width to accommodate all slides */
-    /* Set slide container to 100% width */
-    // transform: translateX(-${props => props.currentSlide * 100}%);
-    // transition: transform 0.5s ease-in-out;
     color: white;
     text-align: center;
 
@@ -67,4 +61,30 @@
 
   .dot.active {
     background-color: #428bca; /* Active dot color */
+  }
+
+  @media screen and (max-width: 440px) {
+    .slideshow-container {
+      position: relative;
+      max-width: 70vw; /* Adjust as needed */
+      margin: 0 auto;
+      padding: 42px;
+      overflow: visible; /* Hide overflowing content */
+      height: 300px;
+    }
+
+    .dots-container {
+      display: none;
+    }
+
+    .slide-item h1 {
+      color: white;
+      padding: 5px;
+      margin-top: 20px;
+      background-image: linear-gradient(45.34deg, $blue 5.66%, $dark-blue 94.35%);
+      width: 100%;
+      box-shadow: 0px 16px 22px 5px rgba(0,0,0,0.39);
+      font-family: 'Quicksand', sans-serif;
+      font-size: 25px;
+    }
   }

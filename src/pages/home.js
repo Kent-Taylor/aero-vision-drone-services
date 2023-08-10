@@ -63,10 +63,7 @@ function Home() {
 
           </Fade>
         </section>
-        <section className="slideshow-section">
-          <h1 className="specialties-header">Specialties</h1>
-          <SlideShow/>
-        </section>
+
         <section className="section-one">
           <Fade>
         <Slide>
@@ -94,7 +91,10 @@ function Home() {
               </div>
         </section>
 
-
+        <section className="slideshow-section">
+          <h1 className="specialties-header">Specialties</h1>
+          <SlideShow/>
+        </section>
 
         <section className="section-three">
           <Subscribe/>
