@@ -47,8 +47,6 @@
                 margin: 25px;
                 font-family: 'Quicksand', sans-serif;
                 border-radius: 50px;
-                // box-shadow:  20px 20px 60px #144964,
-                //              -20px -20px 60px #1a6388;
                 height: 400px;
                 width: 400px
 
@@ -198,6 +196,7 @@
             flex-direction: column;
             padding: 0px;
             height: 1500px;
+            margin: 0px;
 
 
             .left-square {
@@ -223,8 +222,14 @@
             }
 
             .right-square{
-                -webkit-order: 1; /* Vendor prefix for Safari */
+                -webkit-order: 1;
                 order: 1;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                max-height: inherit;
+                max-width: 300px;
+                box-shadow: 0px 10px 30px 18px rgba(0,0,0,0.75);
                 height: 550px;
                 width: 90%;
             }
@@ -244,6 +249,8 @@
             }
 
             .right-square {
+                outline: 10px double white;
+                outline-offset: -15px ;
                 padding: 75px 0px;
                 margin: 0px;
                 min-height: 350px;
