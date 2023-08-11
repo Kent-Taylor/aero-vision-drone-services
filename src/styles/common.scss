@@ -58,12 +58,9 @@ header {
         transition: ease-in-out 0.25s;
     }
 
-    img:hover {
-        filter: brightness(94%);
-    }
-
     .heading-name {
             color: white;
+            filter: brightness(200%);
         }
 }
 

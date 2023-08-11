@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 // import { Fade, Slide } from "react-awesome-reveal";
 import { Fade } from "react-awesome-reveal";
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
 
 import '../styles/about.scss';
 import TransparentLogo from '../images/ariaLogoTransparent.png'
@@ -9,6 +11,7 @@ import TransparentLogo from '../images/ariaLogoTransparent.png'
 function about() {
   return (
     <div className="about">
+
       <header className="about-header">
                <a href="/home" className="logo-link">
                 <img src={TransparentLogo} alt="aria germann counseling logo transparent png" />
@@ -17,6 +20,21 @@ function about() {
 
       </header>
       <section>
+      <Box
+      sx={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        '& > :not(style)': {
+          m: 1,
+          width: 400,
+          height: 400,
+        },
+      }}
+    >
+          <Paper className="paper" elevation={1} />
+      <Paper className="paper" />
+      <Paper className="paper" elevation={3} />
+    </Box>
         <p>
           As a young teenager, I was going through an emotional struggle and my mother suggested therapy.  “Me? Therapy? No way” I replied. “Therapy is only for people who have major issues!” She “insisted” that I give it a try, and I am grateful she did.  Speaking to a non-judgmental, compassionate person, whose main goal was to help me succeed, enabled me to quickly work through issues that may have lingered for years, and ultimately changed my life. I greatly admire and appreciate the therapist who helped me. She inspires me to give that same gift to my clients, with the same level of kindness and compassion, that I received.  I know that the idea of therapy can be intimidating. But, I promise, the steps you are taking can be life altering.
         </p>
