@@ -59,7 +59,7 @@ class Navigation extends Component {
 
 
 
-            <i onClick={this.toggleNav}
+          <i onClick={this.toggleNav}
               className={!isOpen ? "closed-nav-tab fa fa-angle-double-right" : "opened-nav-tab fa fa-angle-double-left"}
             ></i>
 
