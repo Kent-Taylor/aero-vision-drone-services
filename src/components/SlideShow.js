@@ -2,17 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../styles/slideshow.scss'; // Make sure to adjust the import path for your CSS file
 
 const SlideShow = () => {
-    const [currentSlide, setCurrentSlide] = useState(0);
-
-    useEffect(() => {
-      const interval = setInterval(() => {
-        // Calculate the next slide index, loop back to the beginning if needed
-        const nextSlide = (currentSlide + 1) % slideImages.length;
-        setCurrentSlide(nextSlide);
-      }, 5000); // Change slide every 5 seconds
-
-      return () => clearInterval(interval);
-    }, [currentSlide]);
+  const [currentSlide, setCurrentSlide] = useState(0);
 
     // Array of image URLs for the slides
     const slideImages = [
@@ -65,6 +55,17 @@ const SlideShow = () => {
             'Academic Challenges',
             'Behavioral Issues',
     ]
+
+    useEffect(() => {
+      const interval = setInterval(() => {
+        // Calculate the next slide index, loop back to the beginning if needed
+        const nextSlide = (currentSlide + 1) % slideImages.length;
+        setCurrentSlide(nextSlide);
+      }, 5000); // Change slide every 5 seconds
+
+      return () => clearInterval(interval);
+    }, [currentSlide, slideImages.length]);
+
 
     const slideContainerStyle = {
         transform: `translateX(-${(currentSlide * 100)}%)`,
