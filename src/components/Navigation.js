@@ -3,10 +3,8 @@ import { NavLink } from 'react-router-dom';
 import Tooltip from '@mui/material/Tooltip';
 import Button from '@mui/material/Button';
 
-
 import '../styles/navigation.scss';
 
-// import { Tooltip } from 'element-react';
 
 class Navigation extends Component {
   constructor(props) {
