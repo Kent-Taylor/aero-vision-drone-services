@@ -14,6 +14,7 @@ class Navigation extends Component {
     this.state = {
       isOpen: false,
     };
+    console.log(this.isOpen)
   }
 
   toggleNav = () => {
