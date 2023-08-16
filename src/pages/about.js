@@ -16,10 +16,10 @@ function about() {
                <a href="/home" className="logo-link">
                 <img src={TransparentLogo} alt="aria germann counseling logo transparent png" />
         </a>
-<Fade><h1 className='heading-name'>About</h1></Fade>
+      <Fade><h1 className='heading-name'>About</h1></Fade>
 
       </header>
-      <section>
+      <section className="section-one">
       <Box
       sx={{
         display: 'flex',
@@ -47,6 +47,18 @@ function about() {
         <p>
         I have helped people work through feelings of depression, anxiety, perfectionism, trauma, burnout, grief or suicide.  I also love to help people explore issues of: self-worth/self-compassion/self-esteem, life transitions, family conflict, coping skills, codependency, anger management, relationship issues, boundaries, communication skills and emotional regulation.
         </p>
+      </section>
+      <section className="section-two">
+        section two
+      </section>
+      <section className="section-three">
+        section three
+      </section>
+      <section className="section-four">
+        section four
+      </section>
+      <section className="section-five">
+        section five
       </section>
     </div>
   );

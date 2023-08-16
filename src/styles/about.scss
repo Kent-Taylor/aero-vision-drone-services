@@ -3,12 +3,67 @@
 .about {
     background: $dark-blue;
 
-    section {
+
+    .section-one {
         padding: 45px;
+        background-image: url("https://images.unsplash.com/photo-1571156425562-12341e7c9aae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2338&q=80");
+
+        height: 600px;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+
+    .section-two {
+        height: 600px;
+    }
+
+
+    .section-three {
+        padding: 45px;
+        background-image: url("https://images.unsplash.com/photo-1682686581854-5e71f58e7e3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80");
+
+        height: 600px;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section-four {
+        height: 600px;
+    }
+
+    .section-five {
+        padding: 45px;
+        background-image: url("https://images.unsplash.com/photo-1642104798671-01a4129f4fdc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2417&q=80");
+
+        height: 600px;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
 }
 
 .paper {
     background-color: #ffffff;
     background-image: url(http://www.transparenttextures.com/patterns/clean-gray-paper.png);
 }
+
+
+body, html {
+    height: 100%;
+  }
+
+  @media only screen and (max-device-width: 440px) {
+    section {
+      background-attachment: scroll;
+    }
+  }
