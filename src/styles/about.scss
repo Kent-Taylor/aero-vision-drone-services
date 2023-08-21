@@ -1,23 +1,68 @@
 @import 'common.scss';
 
 .about {
-    background: $dark-blue;
-
+    // background: $dark-blue;
 
     .section-one {
-        padding: 45px;
-        background-image: url("https://images.unsplash.com/photo-1571156425562-12341e7c9aae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2338&q=80");
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-        height: 600px;
+      .left {
+        padding: 200px 0px 200px 200px;
+        img {
+          width: 550px;
+          position: relative;
+          z-index: 0;
+          -webkit-box-shadow: 5px 5px 23px 5px #000000;
+          box-shadow: 5px 5px 23px 5px #000000;
+          border-radius: 30px;
+        }
+      }
 
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+      .right {
+        padding: 75px;
+        margin: 100px 100px 100px -90px;
+        z-index: 1;
+        background-color: $tan;
+        -webkit-box-shadow: 5px 5px 23px 5px #000000;
+        box-shadow: 5px 5px 23px 5px #000000;
+        text-align: center;
+
+        p {
+          z-index: 1;
+          font-size: 1.4em;
+        }
+
+        .first-letter {
+          font-family: "Parisienne", cursive;
+          color: black;
+          font-weight: 900;
+          font-size: 2.5em;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+        }
+
+      }
     }
 
     .section-two {
-        height: 600px;
+        min-height: 600px;
+        padding: 0px 300px;
+        text-align: center;
+        font-size: 1.4em;
+
+        .big-text {
+          font-size: 2em;
+          font-family: 'Quicksand', sans-serif;
+        }
+
+        .cursive {
+          font-family: "Parisienne", cursive;
+          font-size: 2em;
+          font-weight: 600;
+        }
     }
 
 
