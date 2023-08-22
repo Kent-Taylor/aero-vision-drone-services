@@ -20,7 +20,7 @@ function Home() {
     <div className="home">
       <header className="home-header">
         <a href="/home" className="logo-link">
-                <img src={TransparentLogo} alt="aria germann counseling logo transparent png" />
+                <img className='transparent-logo' src={TransparentLogo} alt="aria germann counseling logo transparent png" />
         </a>
 
       <Fade>

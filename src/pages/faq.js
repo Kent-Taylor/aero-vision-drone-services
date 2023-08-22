@@ -11,7 +11,7 @@ function faq() {
     <div className="faq">
       <header className="faq-header">
                  <a href="/home" className="logo-link">
-                <img src={TransparentLogo} alt="aria germann counseling logo transparent png" />
+                <img className='transparent-logo' src={TransparentLogo} alt="aria germann counseling logo transparent png" />
         </a>
 <Fade>
         <h1 className='heading-name'>
