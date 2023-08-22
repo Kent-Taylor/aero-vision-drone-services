@@ -18,7 +18,6 @@ import './styles/common.scss';
 // import './styles/location.scss';
 // import './styles/faq.scss';
 // import './styles/connect.scss';
-import './styles/header.scss';
 import './styles/navigation.scss';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';

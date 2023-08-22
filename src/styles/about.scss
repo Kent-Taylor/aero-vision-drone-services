@@ -1,14 +1,165 @@
 @import 'common.scss';
 
 .about {
-    background: $dark-blue;
-
+    // background: $dark-blue;
     section {
-        padding: 45px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+
     }
+
+    .section-one {
+      padding-top: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .left {
+        padding: 200px 0px 200px 200px;
+        img {
+          width: 550px;
+          position: relative;
+          z-index: 0;
+          -webkit-box-shadow: 5px 5px 23px 5px #000000;
+          box-shadow: 5px 5px 23px 5px #000000;
+          border-radius: 30px;
+        }
+      }
+
+      .right {
+        padding: 75px;
+        margin: 100px 100px 100px -90px;
+        z-index: 1;
+        background-color: $tan;
+        -webkit-box-shadow: 5px 5px 23px 5px #000000;
+        box-shadow: 5px 5px 23px 5px #000000;
+        text-align: center;
+
+        p {
+          z-index: 1;
+          font-size: 1.4em;
+        }
+
+        .first-letter {
+          font-family: "Parisienne", cursive;
+          color: black;
+          font-weight: 900;
+          font-size: 2.5em;
+          text-align: center;
+          margin: 0;
+          padding: 0;
+        }
+
+      }
+    }
+
+    .section-two {
+        height: 1800px;
+        padding: 150px 300px;
+        text-align: center;
+        font-size: 1.4em;
+
+        .big-text {
+          font-size: 2em;
+          font-family: 'Quicksand', sans-serif;
+        }
+
+        .cursive {
+          font-family: "Parisienne", cursive;
+          font-size: 2em;
+          font-weight: 600;
+          padding: 80px;
+        }
+
+        .aria-container-two {
+          display: flex;
+        }
+
+        .left {
+          padding: 75px;
+          margin: 100px -100px 45px 90px;
+          z-index: 1;
+          background-color: $pink;
+          -webkit-box-shadow: 5px 5px 23px 5px #000000;
+          box-shadow: 5px 5px 23px 5px #000000;
+          text-align: center;
+
+          p {
+            z-index: 1;
+            font-size: 1.4em;
+          }
+        }
+
+        .right {
+          img {
+            width: 550px;
+            position: relative;
+            z-index: 0;
+            -webkit-box-shadow: 5px 5px 23px 5px #000000;
+            box-shadow: 5px 5px 23px 5px #000000;
+            border-radius: 30px;
+          }
+        }
+    }
+
+    .section-three, .section-four, .section-five, .section-six, .section-seven, .section-eight, .section-nine {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 3em;
+    }
+
+
+    .section-three {
+        padding: 45px;
+        background-image: url("https://images.unsplash.com/photo-1682686581854-5e71f58e7e3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80");
+    }
+
+    .section-four {
+
+        background-image: url('https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80');
+    }
+
+    .section-five {
+        padding: 45px;
+        background-image: url("https://images.unsplash.com/photo-1642104798671-01a4129f4fdc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2417&q=80");
+    }
+
+    .section-six {
+      background-image: url('https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80');
+    }
+
+    .section-seven {
+      background-image: url('https://images.unsplash.com/photo-1598024055266-e772a5f8c128?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80');
+    }
+
+    .section-eight {
+      background-image: url('https://images.unsplash.com/uploads/1412533519888a485b488/bb9f9777?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80');
+    }
+
+    .section-nine {
+      background-image: url('https://images.unsplash.com/photo-1629760946220-5693ee4c46ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80');
+    }
+
+
 }
 
 .paper {
     background-color: #ffffff;
     background-image: url(http://www.transparenttextures.com/patterns/clean-gray-paper.png);
 }
+
+
+body, html {
+    height: 100%;
+  }
+
+  @media only screen and (max-device-width: 440px) {
+    section {
+      background-attachment: scroll;
+    }
+  }

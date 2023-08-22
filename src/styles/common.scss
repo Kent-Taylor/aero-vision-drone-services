@@ -6,7 +6,7 @@
 @import url("//unpkg.com/element-ui@2.15.13/lib/theme-chalk/index.css");
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 $blue: #3db4f5;
 $dark-blue: #175676;
 $black: #1a090d;
@@ -51,49 +51,55 @@ header {
     width: 100%;
     font-size: 1.5em;
 
-
-    img {
-        width: 250px;
-        cursor: pointer;
-        transition: ease-in-out 0.25s;
-    }
-
     .heading-name {
             color: white;
             filter: brightness(200%);
         }
 }
 
-.home-header img, .about-header img, .location-header img, .faq-header img, .connect-header img {
+.transparent-logo {
     position: absolute;
     left: 130px;
     top: 10px;
+    width: 250px;
+    cursor: pointer;
 }
+
+
 
 .home-header {
     background-image: url('https://images.unsplash.com/photo-1682687218982-6c508299e107?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
     box-shadow: inset 0px 0px 30px 10px #000000;
-
+    position: relative;
+    overflow: hidden;
 }
 
 .about-header {
     background-image: url('https://images.unsplash.com/photo-1689890075754-f36045eaadc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80');
     box-shadow: inset 0px 0px 30px 10px #000000;
+    position: relative;
+    overflow: hidden;
 }
 
 .location-header {
     background-image: url('https://images.unsplash.com/photo-1686588216453-1ba2e872efa2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80');
     box-shadow: inset 0px 0px 30px 10px #000000;
+    position: relative;
+    overflow: hidden;
 }
 
 .faq-header {
     background-image: url('https://images.unsplash.com/photo-1690132778944-08060239d471?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
     box-shadow: inset 0px 0px 30px 10px #000000;
+    position: relative;
+    overflow: hidden;
 }
 
 .connect-header {
     background-image: url('https://images.unsplash.com/photo-1682254739590-bb652d6e768f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80');
     box-shadow: inset 0px 0px 30px 10px #000000;
+    position: relative;
+    overflow: hidden;
 }
 
 
