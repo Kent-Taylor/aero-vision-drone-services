@@ -41,24 +41,40 @@ function about() {
         </section>
       <section className="section-two">
             <p>
-              Nothing makes me happier than empowering someone with the tools they need to be proactive in overcoming their current challenges, and I ensure this is done in a kind, compassionate and non-judgmental environment. I deeply care about my clients and understand the pain that brings them to counseling. My passion is helping adolescents and female adults/young adult females become the best them. I use a mix of CBT, ACT, DBT and a strengths-based approach during therapy.
+              Nothing makes me happier than empowering someone with the tools they need to be proactive in overcoming their current challenges, and I ensure this is done in a kind, compassionate and non-judgmental environment. I deeply care about my clients and understand the pain that brings them to counseling. My passion is helping adolescents and female adults/young adult females become the best them.
             </p>
-            <p className="big-text">
-              I have helped people work through feelings of depression, anxiety, perfectionism, trauma, burnout, grief or suicide.  I also love to help people explore issues of: self-worth/self-compassion/self-esteem, life transitions, family conflict, coping skills, codependency, anger management, relationship issues, boundaries, communication skills and emotional regulation.
-            </p>
+        <p className="big-text">
+        I use a mix of CBT, ACT, DBT and a strengths-based approach during therapy.
+        </p>
+        <p>
+        I have helped people work through feelings of depression, anxiety, perfectionism, trauma, burnout, grief or suicide.  I also love to help people explore issues of: self-worth/self-compassion/self-esteem, life transitions, family conflict, coping skills, codependency, anger management, relationship issues, boundaries, communication skills and emotional regulation.
+
+        </p>
             <p>
               A little about me: I am a Licensed Master Social Worker, and a recovering perfectionist. I was born and raised in the Bay Area.  I received an undergraduate degree in Human Development from Brigham Young University.  I also received my Masters Degree from Brigham University. When I’m not helping my clients to become the best they can be, you’ll find me reading, hiking, walking, playing pickleball, shopping or traveling.
         </p>
         <p className="cursive">  I look forward to getting to know YOU better and walking with you on your journey.</p>
       </section>
       <section className="section-three">
-        section three
+        I love going hiking.
       </section>
       <section className="section-four">
-        section four
+        I'm learning to golf.
       </section>
       <section className="section-five">
-        section five
+        Try to beat me at Pickleball.
+      </section>
+      <section className="section-six">
+        Traveling is my guilty pleasure.
+      </section>
+      <section className="section-seven">
+        Reading is my escape.
+      </section>
+      <section className="section-eight">
+        I love my nature walks.
+      </section>
+      <section className="section-nine">
+        Board games with family is a must.
       </section>
     </div>
   );
