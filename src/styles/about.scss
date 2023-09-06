@@ -193,28 +193,7 @@
         }
       }
 
-      .aria-container-two {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-        .left {
-          width: 100vw;
-          z-index: 0;
-            margin: 0px 0px 42px;
-          p {
-            font-size: 1em;
-            padding: 0px 45px;
-          }
-          }
-
-          .right {
-            img {
-              width: 320px;
-            }
-            margin-bottom: 62px;
-          }
-      }
 
       .section-two {
         // z-index: 1;
@@ -223,11 +202,36 @@
         display: flex;
         flex-direction: column;
         margin: 15px;
+
+              .aria-container-two {
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+
+                  .left {
+                    width: 100vw;
+                    z-index: 0;
+                    margin: 0px 0px 42px;
+
+                    p {
+                      font-size: 1em;
+                      padding: 0px 45px;
+                    }
+                  }
+
+                  .right {
+                    .slide img {
+                      width: 320px;
+                    }
+
+                    margin-bottom: 62px;
+                  }
+                }
       }
 
       .about-me-container {
         p {
-          margin-bottom: 150px;
+          margin: 15px;
         }
       }
       section {

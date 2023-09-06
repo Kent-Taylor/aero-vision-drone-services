@@ -47,7 +47,7 @@ function about() {
               Nothing makes me happier than empowering someone with the tools they need to be proactive in overcoming their current challenges, and I ensure this is done in a kind, compassionate and non-judgmental environment. I deeply care about my clients and understand the pain that brings them to counseling. My passion is helping adolescents and female adults/young adult females become the best them.
           </p>
           </Fade>
-          <Slide>
+          <Slide className="slide">
           <Fade>
 
         <p className="big-text">
@@ -55,6 +55,7 @@ function about() {
           </p>
           </Fade>
 </Slide>
+      </section>
 
         <div className="aria-container-two">
 
@@ -76,13 +77,13 @@ function about() {
           </div>
 
         </div>
-        <Fade>
           <div className="about-me-container">
+        <Fade>
             <p>
               A little about me: I am a Licensed Master Social Worker, and a recovering perfectionist. I was born and raised in the Bay Area.  I received an undergraduate degree in Human Development from Brigham Young University.  I also received my Masters Degree from Brigham University. When I’m not helping my clients to become the best they can be, you’ll find me reading, hiking, walking, playing pickleball, shopping or traveling.
             </p>
-          </div>
         </Fade>
+          </div>
         <Slide>
 
           <Fade>
@@ -91,7 +92,6 @@ function about() {
           </Fade>
         </Slide>
 
-      </section>
       <section className="section-three">
       <Fade>
 
