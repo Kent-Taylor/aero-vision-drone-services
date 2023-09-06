@@ -168,7 +168,7 @@ body, html {
       }
       .section-one {
         flex-direction: column;
-        margin: 42px;
+        margin: 142px 15px 42px;
 
         .left {
           padding: 500px 0px 42px 0px;
@@ -196,10 +196,35 @@ body, html {
         }
       }
 
+      .aria-container-two {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .left {
+          width: 100vw;
+          z-index: 0;
+            padding: 45px;
+            margin: 0px 0px 42px;
+          }
+
+          .right {
+            img {
+              width: 300px;
+            }
+            margin-bottom: 62px;
+          }
+      }
+
       .section-two {
         // z-index: 1;
         // margin: 42px;
         padding: 450px 30px;
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+
+
       }
     }
 
