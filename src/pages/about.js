@@ -77,10 +77,11 @@ function about() {
 
         </div>
         <Fade>
-
+          <div className="about-me-container">
             <p>
               A little about me: I am a Licensed Master Social Worker, and a recovering perfectionist. I was born and raised in the Bay Area.  I received an undergraduate degree in Human Development from Brigham Young University.  I also received my Masters Degree from Brigham University. When I’m not helping my clients to become the best they can be, you’ll find me reading, hiking, walking, playing pickleball, shopping or traveling.
-          </p>
+            </p>
+          </div>
         </Fade>
         <Slide>
 

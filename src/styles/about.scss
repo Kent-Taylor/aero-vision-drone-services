@@ -8,7 +8,6 @@
       background-repeat: no-repeat;
       background-size: cover;
       height: 600px;
-
     }
 
     .section-one {
@@ -154,9 +153,7 @@
 }
 
 
-body, html {
-    height: 100%;
-  }
+
 
   @media only screen and (max-width: 1200px) {
     .about {
@@ -204,13 +201,16 @@ body, html {
         .left {
           width: 100vw;
           z-index: 0;
-            padding: 45px;
             margin: 0px 0px 42px;
+          p {
+            font-size: 1em;
+            padding: 0px 45px;
+          }
           }
 
           .right {
             img {
-              width: 300px;
+              width: 320px;
             }
             margin-bottom: 62px;
           }
@@ -223,8 +223,34 @@ body, html {
         display: flex;
         flex-direction: column;
         margin: 15px;
+      }
 
+      .about-me-container {
+        p {
+          margin-bottom: 150px;
+        }
+      }
+      section {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+      }
 
+      .section-three,
+      .section-four,
+      .section-five,
+      .section-six,
+      .section-seven,
+      .section-eight,
+      .section-nine {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.6em;
+        text-align: center;
       }
     }
 
