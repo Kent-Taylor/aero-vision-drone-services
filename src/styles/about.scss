@@ -158,8 +158,49 @@ body, html {
     height: 100%;
   }
 
-  @media only screen and (max-device-width: 440px) {
-    section {
-      background-attachment: scroll;
+  @media only screen and (max-width: 1200px) {
+    .about {
+      display: flex;
+      flex-direction: column;
+
+      .about-header {
+        // padding: 420px 10px 0px;
+      }
+      .section-one {
+        flex-direction: column;
+        margin: 42px;
+
+        .left {
+          padding: 500px 0px 42px 0px;
+          img {
+            width: 80vw;
+          }
+        }
+        .right {
+          background-color: white;
+          box-shadow: none;
+          margin-top: 10px;
+          padding: 0px 0px 300px;
+          margin: 0px;
+          width: 100vw;
+          z-index: 0;
+
+          p {
+            padding: 25px;
+          }
+
+          .first-letter {
+            font-size: 1.3em;
+
+          }
+        }
+      }
+
+      .section-two {
+        // z-index: 1;
+        // margin: 42px;
+        padding: 450px 30px;
+      }
     }
+
   }

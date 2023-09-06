@@ -79,7 +79,7 @@
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
-            max-height: inherit;
+            max-height: 400px;
             min-width: 250px;
             box-shadow: 0px 10px 30px 18px rgba(0,0,0,0.75);
         }
@@ -178,7 +178,7 @@
 }
 
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 1200px) {
     .home-main {
         .slideshow-section {
             // background-color: $tan;
@@ -231,7 +231,8 @@
                 max-width: 300px;
                 box-shadow: 0px 10px 30px 18px rgba(0,0,0,0.75);
                 height: 550px;
-                width: 90%;
+                width: 80%;
+                margin: 0px 42px;
             }
         }
 
@@ -239,26 +240,30 @@
             // height: 1500px;
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
             margin: 30px;
             padding: 0px;
             .left-square {
                 img {
                     // height: 500px;
-                    width: 70vw;
+                    width: 80vw;
                 }
             }
 
             .right-square {
                 outline: 10px double white;
                 outline-offset: -15px ;
-                padding: 75px 0px;
-                margin: 0px;
+                padding: 18% 0px;
+                margin: 42px 250px;
                 min-height: 350px;
                 max-height: 900px;
+                min-width: 400px;
+                max-width: 80%;
                 overflow-y: hidden;
 
                 h1 {
-                    padding: 10px 30px 0px;
+                    padding: 0px 30px;
                     margin: 0px;
                     font-size: 2.5em;
                 }

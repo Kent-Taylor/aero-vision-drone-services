@@ -1,10 +1,5 @@
-// import logo from './logo.svg';
 import { Fade, Slide } from "react-awesome-reveal";
-// import { Fade } from "react-awesome-reveal";
-// import Box from '@mui/material/Box';
-// import Paper from '@mui/material/Paper';
-// import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
-// import { Parallax } from "react-scroll-parallax";
+
 import '../styles/about.scss';
 import TransparentLogo from '../images/ariaLogoTransparent.png'
 import AriaOne from "../images/aria1.jpeg";
