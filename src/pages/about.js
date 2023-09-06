@@ -113,7 +113,7 @@ function about() {
       <section className="section-five">
             <Fade>
 
-        Try to beat me at Pickleball.
+        Pickleball is my new favorite sport.
             </Fade>
 
       </section>
