@@ -1,13 +1,20 @@
 @import 'common.scss';
 
 .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
     // background: $dark-blue;
     section {
+        display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 600px;
     }
 
     .section-one {
@@ -15,11 +22,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: row;
 
       .left {
         padding: 200px 0px 200px 200px;
         img {
-          width: 550px;
+          max-width: 550px;
           position: relative;
           z-index: 0;
           -webkit-box-shadow: 5px 5px 23px 5px #000000;
@@ -30,8 +38,10 @@
 
       .right {
         padding: 75px;
-        margin: 100px 100px 100px -90px;
+        margin: 42px 100px 100px -90px;
         z-index: 1;
+        min-width: 642px;
+        max-width: 700px;
         background-color: $tan;
         -webkit-box-shadow: 5px 5px 23px 5px #000000;
         box-shadow: 5px 5px 23px 5px #000000;
@@ -55,16 +65,18 @@
       }
     }
 
+    .big-text {
+      font-size: 2em;
+      font-family: 'Quicksand', sans-serif;
+      color: $pink;
+      max-width: 700px;
+    }
+
     .section-two {
-        height: 1800px;
-        padding: 150px 300px;
+        padding: 0px 300px;
         text-align: center;
         font-size: 1.4em;
 
-        .big-text {
-          font-size: 2em;
-          font-family: 'Quicksand', sans-serif;
-        }
 
         .cursive {
           font-family: "Parisienne", cursive;
@@ -73,15 +85,23 @@
           padding: 80px;
         }
 
-        .aria-container-two {
-          display: flex;
+
+    }
+      .aria-container-two {
+        display: flex;
+        justify-content: center;
+
+        p {
+            max-width: 1000px;
         }
 
         .left {
           padding: 75px;
-          margin: 100px -100px 45px 90px;
+          margin: 90px -100px 45px 130px;
           z-index: 1;
           background-color: $pink;
+          min-width: 600px;
+          max-width: 700px;
           -webkit-box-shadow: 5px 5px 23px 5px #000000;
           box-shadow: 5px 5px 23px 5px #000000;
           text-align: center;
@@ -93,7 +113,7 @@
         }
 
         .right {
-          img {
+          .owner-pic-2 {
             width: 550px;
             position: relative;
             z-index: 0;
@@ -101,8 +121,9 @@
             box-shadow: 5px 5px 23px 5px #000000;
             border-radius: 30px;
           }
-        }
-    }
+                                  }
+      }
+
 
     .section-three, .section-four, .section-five, .section-six, .section-seven, .section-eight, .section-nine {
       display: flex;
@@ -201,6 +222,8 @@
         padding: 450px 30px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin: 15px;
 
               .aria-container-two {
@@ -220,14 +243,16 @@
                   }
 
                   .right {
-                    .slide img {
-                      width: 320px;
-                    }
 
                     margin-bottom: 62px;
                   }
                 }
-      }
+              }
+              .owner-pic-2 {
+               width: 320px;
+               text-align: center;
+               margin: 0px 52px;
+             }
 
       .about-me-container {
         p {

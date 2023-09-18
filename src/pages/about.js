@@ -41,40 +41,39 @@ function about() {
         </div>
         </section>
       <section className="section-two">
-      <Fade>
+      {/* <Fade> */}
 
             <p>
               Nothing makes me happier than empowering someone with the tools they need to be proactive in overcoming their current challenges, and I ensure this is done in a kind, compassionate and non-judgmental environment. I deeply care about my clients and understand the pain that brings them to counseling. My passion is helping adolescents and female adults/young adult females become the best them.
           </p>
-          </Fade>
-          <Slide className="slide">
-          <Fade>
+          {/* </Fade> */}
+          {/* <Slide className="slide"> */}
+          {/* <Fade> */}
 
         <p className="big-text">
         I use a mix of CBT, ACT, DBT and a strengths-based approach during therapy.
           </p>
-          </Fade>
-</Slide>
+          {/* </Fade> */}
+{/* </Slide> */}
       </section>
 
         <div className="aria-container-two">
-
           <div className="left">
-          <Fade>
+            {/* <Fade> */}
 
-        <p>
-        I have helped people work through feelings of depression, anxiety, perfectionism, trauma, burnout, grief or suicide.  I also love to help people explore issues of: self-worth/self-compassion/self-esteem, life transitions, family conflict, coping skills, codependency, anger management, relationship issues, boundaries, communication skills and emotional regulation.
-              </p>
-            </Fade>
+            <p>
+            I have helped people work through feelings of depression, anxiety, perfectionism, trauma, burnout, grief or suicide.  I also love to help people explore issues of: self-worth/self-compassion/self-esteem, life transitions, family conflict, coping skills, codependency, anger management, relationship issues, boundaries, communication skills and emotional regulation.
+            </p>
+            {/* </Fade> */}
 
         </div>
+          {/* <Fade> */}
           <div className="right">
-          <Fade>
 
-              <img src={OwnerPic} alt="aria germann counseling profile" />
-            </Fade>
+              <img src={OwnerPic} className='owner-pic-2' alt="aria germann counseling profile" />
 
           </div>
+            {/* </Fade> */}
 
         </div>
           <div className="about-me-container">
