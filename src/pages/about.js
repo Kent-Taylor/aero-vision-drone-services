@@ -1,4 +1,4 @@
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 import '../styles/about.scss';
 import TransparentLogo from '../images/ariaLogoTransparent.png'
@@ -78,65 +78,77 @@ function about() {
         </div>
           <div className="about-me-container">
         <Fade>
+          <div className="line"/>
+
             <p>
               A little about me: I am a Licensed Master Social Worker, and a recovering perfectionist. I was born and raised in the Bay Area.  I received an undergraduate degree in Human Development from Brigham Young University.  I also received my Masters Degree from Brigham University. When I’m not helping my clients to become the best they can be, you’ll find me reading, hiking, walking, playing pickleball, shopping or traveling.
-            </p>
+          </p>
+          <div className="line"/>
+
         </Fade>
           </div>
-        <Slide>
 
-          <Fade>
 
           <p className="cursive">  I look forward to getting to know YOU better and walking with you on your journey.</p>
-          </Fade>
-        </Slide>
 
       <section className="section-three">
       <Fade>
+<p>I love going hiking.</p>
 
-          I love going hiking.
           </Fade>
 
       </section>
       <section className="section-four">
       <Fade>
+          <p>
+            I'm learning to golf.
+          </p>
 
-          I'm learning to golf.
           </Fade>
 
       </section>
       <section className="section-five">
             <Fade>
+          <p>
+            Pickleball is my new favorite sport.
+          </p>
 
-        Pickleball is my new favorite sport.
             </Fade>
 
       </section>
       <section className="section-six">
             <Fade>
+          <p>
+              Traveling is my guilty pleasure.
+          </p>
 
-        Traveling is my guilty pleasure.
             </Fade>
 
       </section>
       <section className="section-seven">
             <Fade>
+          <p>
 
         Reading is my escape.
+          </p>
             </Fade>
 
       </section>
       <section className="section-eight">
             <Fade>
+          <p>
 
         I love my nature walks.
+          </p>
             </Fade>
 
       </section>
       <section className="section-nine">
             <Fade>
+          <p>
 
         Board games with family is a must.
+          </p>
             </Fade>
 
       </section>

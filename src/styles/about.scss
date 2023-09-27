@@ -1,16 +1,17 @@
 @import 'common.scss';
 
 .about {
+  color: $dark-blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
     // background: $dark-blue;
     section {
-        display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -18,14 +19,13 @@
     }
 
     .section-one {
-      padding-top: 200px;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: row;
 
       .left {
-        padding: 200px 0px 200px 200px;
+        padding: 200px 0px 130px 200px;
         img {
           max-width: 550px;
           position: relative;
@@ -70,42 +70,50 @@
       font-family: 'Quicksand', sans-serif;
       color: $pink;
       max-width: 700px;
+      font-weight: 700;
     }
 
     .section-two {
-        padding: 0px 300px;
+        padding: 42px 300px;
         text-align: center;
         font-size: 1.4em;
+      }
 
-
-        .cursive {
-          font-family: "Parisienne", cursive;
-          font-size: 2em;
-          font-weight: 600;
-          padding: 80px;
-        }
-
-
-    }
+      .cursive {
+        font-family: 'Dancing Script', cursive;
+        font-size: 3em;
+        font-weight: 600;
+        padding: 80px;
+        color: $pink;
+        width: 500px;
+        text-align: center;
+      }
       .aria-container-two {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        margin-bottom: 100px;
 
         p {
             max-width: 1000px;
         }
 
         .left {
+          display: flex;
+          justify-content: center;
+          align-items: center;
           padding: 75px;
-          margin: 90px -100px 45px 130px;
-          z-index: 0;
-          background-color: $pink;
+          margin: 95px -45px 45px 130px;
+          z-index: 1;
+          background-color: #fcafa3;
           min-width: 600px;
           max-width: 700px;
-          -webkit-box-shadow: 5px 5px 23px 5px #000000;
           box-shadow: 5px 5px 23px 5px #000000;
           text-align: center;
+          height: 300px;
+          border-radius: 25px;
+          color: white;
+          font-weight: 600;
+          word-spacing: 3px;
 
           p {
             z-index: 1;
@@ -122,7 +130,25 @@
             box-shadow: 5px 5px 23px 5px #000000;
             border-radius: 30px;
           }
-                                  }
+        }
+      }
+
+      .about-me-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50vw;
+        text-align: center;
+        margin: 42px;
+
+        p {
+          color: #175676;
+          font-weight: 800;
+          text-align: center;
+          padding: 42px 45px;
+          font-size: 1.4em;
+        }
       }
 
 
@@ -132,6 +158,8 @@
       align-items: center;
       color: white;
       font-size: 3em;
+      width: 100vw;
+      height: 400px;
     }
 
 
@@ -175,35 +203,39 @@
 }
 
 
-
+.line {
+  width: 30vw;
+  height: 2px;
+  background-color: $coral;
+  font-weight: 200;
+}
 
   @media only screen and (max-width: 1200px) {
     .about {
       display: flex;
       flex-direction: column;
 
-      .about-header {
-        margin-bottom: 342px;
-      }
       .section-one {
         flex-direction: column;
-        margin: 215px 5px 42px;
-        padding-bottom: 490px;
+        margin: -150px 5px 42px;
+        padding: 0px 200px 0px 0px;
 
         .left {
-          padding: 200px 0px 42px 0px;
           img {
             width: 80vw;
           }
         }
         .right {
-          background-color: orange;
-          margin: 0px 15px 370px;
+          background-color: $tan;
+          margin: 0px 10px 0px 200px;
           width: 100vw;
+          box-shadow: none;
+          z-index: 0;
 
           p {
             padding: 0px 142px;
             z-index: 0;
+            color: $dark-blue;
           }
 
           .first-letter {
@@ -212,21 +244,22 @@
             font-weight: 900;
             font-size: 1.4em;
             text-align: center;
-            // margin: 42;
-            // padding: 42px;
+            word-spacing: 3px;
           }
         }
       }
 
       .section-two {
-        // z-index: 1;
-        // margin: 42px;
-        padding: 360px 42px;
+        padding: 0px 42px 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 15px;
+
+        p {
+          margin: 140px 0px 0px
+        }
 
 
               }
@@ -236,17 +269,11 @@
                margin: 0px 52px;
              }
 
-      .about-me-container {
-        p {
-          margin: 15px;
-        }
-      }
+
       section {
-        background-attachment: fixed;
+        background-attachment:scroll;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
-        height: 200px;
       }
 
       .section-three,
@@ -262,6 +289,11 @@
         color: white;
         font-size: 1.6em;
         text-align: center;
+
+        p {
+          background-color: #00000071;
+          padding: 15px 12px;
+        }
       }
 
       .aria-container-two {
@@ -270,24 +302,54 @@
         align-items: center;
 
         .left {
+          margin: 0px 130px 45px 130px;
           padding: 42px 172px;
           z-index: 0;
           background-color: #fcafa3;
           max-width: 700px;
-          box-shadow: 5px 5px 23px 5px #000000;
+          box-shadow: none;
           text-align: center;
+          height: auto;
+          width: 200px;
 
           p {
-            font-size: 1.2em;
+            font-size: 1.3em;
             padding: 0px 45px;
             width: 50%;
+            color: white;
+            font-weight: 600;
+            word-spacing: 3px;
           }
         }
 
         .right {
           margin-bottom: 62px;
+
+          .owner-pic-2 {
+            width: 350px;
+          }
         }
       }
+    }
+
+    .about-me-container {
+      p {
+        color: $dark-blue;
+        font-weight: 800;
+        text-align: center;
+        padding: 0px 42px;
+        width: 80vw;
+
+      }
+    }
+    .cursive {
+      text-align: center;
+      color: black;
+      font-weight: 600;
+      margin: 0px;
+      font-size: 2.5em !important;
+      margin: 10px 420px !important;
+      width: 80vw !important;
     }
 
   }
