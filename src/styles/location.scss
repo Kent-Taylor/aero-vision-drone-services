@@ -1,1 +1,48 @@
 @import 'common.scss';
+
+
+.location-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.location-section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100vw;
+    background-image: url('https://images.unsplash.com/photo-1546387903-6d82d96ccca6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2942&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .come-see-me-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.803);
+        padding: 42px;
+        width: 35vw;
+    }
+
+    h1 {
+        margin: 0px 0px 42px;
+        padding: 0px;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .location-header {
+
+    }
+
+    .location-section-one {
+        .come-see-me-box{
+            width:55vw;
+        }
+    }
+}
