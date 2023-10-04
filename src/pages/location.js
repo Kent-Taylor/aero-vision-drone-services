@@ -17,13 +17,15 @@ function location() {
         <img className='transparent-logo' src={TransparentLogo} alt="aria germann counseling logo transparent png" />
         </a>
         <Fade>
-          <h1 className='heading-name'>Location</h1>
+          <h1 style={{display: "none"}}>location</h1>
+          <h1 className='heading-name'>My Office</h1>
+          <h2 className="sub-heading">Experience healing with Us</h2>
 </Fade>
       </header>
       <section className="location-section-one">
         <div className="come-see-me-box">
-
-          <h1>Come & See Me!</h1>
+          <h1 style={{display:"none"}}>location page</h1>
+          <h1>Charlotte, NC Therapy with Aria: Healing and Growth in the Queen City</h1>
           <Fab variant="extended" color="primary">
             <NavigationIcon sx={{ mr: 1 }} />
               Map

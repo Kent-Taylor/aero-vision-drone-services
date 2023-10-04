@@ -15,7 +15,10 @@ function about() {
                <a href="/home" className="logo-link">
                 <img className='transparent-logo' src={TransparentLogo} alt="aria germann counseling logo transparent png" />
         </a>
-      <Fade><h1 className='heading-name'>About</h1></Fade>
+        <Fade>
+          <h1 className='heading-name'>Meet Aria</h1>
+          <h2 className="sub-heading">Get to Know Your Therapist</h2>
+        </Fade>
 
       </header>
 

@@ -23,8 +23,10 @@ function Home() {
                 <img className='transparent-logo' src={TransparentLogo} alt="aria germann counseling logo transparent png" />
         </a>
 
-      <Fade>
-        <h1 className='heading-name'>Home</h1>
+        <Fade>
+          <h1 style={{display:"none"}}>Home page</h1>
+          <h1 className='heading-name'>Home</h1>
+          <h2 className="sub-heading">A Safe Haven for Your Mental Health in Charlotte</h2>
         </Fade>
 
         </header>

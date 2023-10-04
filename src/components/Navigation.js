@@ -33,14 +33,14 @@ class Navigation extends Component {
             </Button>
             </Tooltip>
 
-          <Tooltip title="About" placement="right">
+          <Tooltip title="Meet Aria" placement="right">
             <Button>
-            <NavLink className={!isOpen ? "fa fa-fw fa-info-circle" : "show-text"} to="/about">{ isOpen ? "About" : " " }</NavLink>
+            <NavLink className={!isOpen ? "fa fa-fw fa-info-circle" : "show-text"} to="/about">{ isOpen ? "Meet Aria" : " " }</NavLink>
             </Button>
           </Tooltip>
-              <Tooltip title="Location" placement="right">
+              <Tooltip title="My Office" placement="right">
                 <Button>
-            <NavLink className={ !isOpen ? "fa fa-fw fa-map-marker" : "show-text"} to="/location">{ isOpen ? "Location" : " " }</NavLink>
+            <NavLink className={ !isOpen ? "fa fa-fw fa-map-marker" : "show-text"} to="/location">{ isOpen ? "My Office" : " " }</NavLink>
                 </Button>
           </Tooltip>
 
