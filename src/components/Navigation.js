@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import Tooltip from '@mui/material/Tooltip';
 import Button from '@mui/material/Button';
 
@@ -29,30 +28,30 @@ class Navigation extends Component {
         <div id="mySidenav" className={`sidenav ${isOpen ? 'open' : ''}`}>
           <Tooltip title="Home" placement="right">
             <Button>
-              <NavLink className={!isOpen ? "fa fa-fw fa-home" : "show-text"} to="/home">{isOpen ? "Home" : " "}</NavLink>
+              <a className={!isOpen ? "fa fa-fw fa-home" : "show-text"} href="/home">{isOpen ? "Home" : " "}</a>
             </Button>
             </Tooltip>
 
-          <Tooltip title="About" placement="right">
+          <Tooltip title="Meet Aria" placement="right">
             <Button>
-            <NavLink className={!isOpen ? "fa fa-fw fa-info-circle" : "show-text"} to="/about">{ isOpen ? "About" : " " }</NavLink>
+            <a className={!isOpen ? "fa fa-fw fa-info-circle" : "show-text"} href="/about">{ isOpen ? "Meet Aria" : " " }</a>
             </Button>
           </Tooltip>
-              <Tooltip title="Location" placement="right">
+              <Tooltip title="My Office" placement="right">
                 <Button>
-            <NavLink className={ !isOpen ? "fa fa-fw fa-map-marker" : "show-text"} to="/location">{ isOpen ? "Location" : " " }</NavLink>
+            <a className={ !isOpen ? "fa fa-fw fa-map-marker" : "show-text"} href="/location">{ isOpen ? "My Office" : " " }</a>
                 </Button>
           </Tooltip>
 
           <Tooltip title="FAQ" placement="right">
             <Button>
-            <NavLink className={ !isOpen ? "fa fa-fw fa-question-circle" : "show-text"} to="/faq">{ isOpen ? "FAQ" : " " }</NavLink>
+            <a className={ !isOpen ? "fa fa-fw fa-question-circle" : "show-text"} href="/faq">{ isOpen ? "FAQ" : " " }</a>
             </Button>
           </Tooltip>
 
           <Tooltip title="Connect" placement="right">
             <Button>
-            <NavLink className={ !isOpen ? "fa fa-fw fa-envelope" : "show-text"} to="/connect">{ isOpen ? "Connect" : " " }</NavLink>
+            <a className={ !isOpen ? "fa fa-fw fa-envelope" : "show-text"} href="/connect">{ isOpen ? "Connect" : " " }</a>
             </Button>
           </Tooltip>
 

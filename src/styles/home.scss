@@ -99,11 +99,23 @@
             justify-content: center;
             align-items: center;
             min-height: 500px;
+            flex-direction: column-reverse;
 
             img {
                 box-shadow: 0px 10px 30px 18px rgba(0, 0, 0, 0.435);
                 width: 450px;
                 border-radius: 15px;
+            }
+
+            h1 {
+                    text-shadow: -7px 10px 9px rgb(0, 0, 0);
+                    font-weight: 600;
+                    z-index: 1;
+                    position: absolute;
+                    bottom: -550px;
+                    left: 350px;
+                    font-size: 9em;
+                    color: white;
             }
         }
 
@@ -116,8 +128,10 @@
             flex-direction: column;
             align-items: center;
             min-height: 500px;
-            font-size: 18px;
+            font-size: 20px;
             overflow-y: scroll;
+            font-weight: 600;
+            letter-spacing: 1px;
 
 
             h1 {
@@ -244,22 +258,29 @@
             align-items: center;
             margin: 30px;
             padding: 0px;
+
             .left-square {
                 img {
-                    // height: 500px;
                     width: 80vw;
+                }
+
+                h1 {
+                    font-weight: 500;
+                    bottom: -160px;
+                    left: auto;
+                    font-size: 4.5em;
                 }
             }
 
             .right-square {
                 outline: 10px double white;
                 outline-offset: -15px ;
-                padding: 18% 0px;
-                margin: 42px 250px;
+                padding: 10% 0px;
+                // margin: 42px 250px;
                 min-height: 350px;
-                max-height: 900px;
+                // max-height: 900px;
                 min-width: 400px;
-                max-width: 80%;
+                // max-width: 100%;
                 overflow-y: hidden;
 
                 h1 {
@@ -270,7 +291,7 @@
 
                 p {
                     text-align: center;
-                    padding: -30px 0px;
+                    // padding: -30px 0px;
                 }
             }
         }

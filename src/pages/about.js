@@ -15,7 +15,10 @@ function about() {
                <a href="/home" className="logo-link">
                 <img className='transparent-logo' src={TransparentLogo} alt="aria germann counseling logo transparent png" />
         </a>
-      <Fade><h1 className='heading-name'>About</h1></Fade>
+        <Fade duration={500}>
+          <h1 className='heading-name'>Meet Aria</h1>
+          <h2 className="sub-heading">Get to Know Your Therapist</h2>
+        </Fade>
 
       </header>
 
@@ -25,12 +28,12 @@ function about() {
         </div>
         <div className="right">
           <article>
-            <Fade>
+            <Fade duration={500}>
               <p>
                 <span className="first-letter">As a young teenager, I was going through an emotional struggle and my mother suggested therapy.</span>
               </p>
             </Fade>
-            <Fade>
+            <Fade duration={500}>
 
             <p>
               “Me? Therapy? No way” I replied. “Therapy is only for people who have major issues!” She “insisted” that I give it a try, and I am grateful she did.  Speaking to a non-judgmental, compassionate person, whose main goal was to help me succeed, enabled me to quickly work through issues that may have lingered for years, and ultimately changed my life. I greatly admire and appreciate the therapist who helped me. She inspires me to give that same gift to my clients, with the same level of kindness and compassion, that I received.  I know that the idea of therapy can be intimidating. But, I promise, the steps you are taking can be life altering.
@@ -77,7 +80,7 @@ function about() {
 
         </div>
           <div className="about-me-container">
-        <Fade>
+        <Fade duration={500}>
           <div className="line"/>
 
             <p>
@@ -92,14 +95,14 @@ function about() {
           <p className="cursive">  I look forward to getting to know YOU better and walking with you on your journey.</p>
 
       <section className="section-three">
-      <Fade>
+      <Fade duration={500}>
 <p>I love going hiking.</p>
 
           </Fade>
 
       </section>
       <section className="section-four">
-      <Fade>
+      <Fade duration={500}>
           <p>
             I'm learning to golf.
           </p>
@@ -108,7 +111,7 @@ function about() {
 
       </section>
       <section className="section-five">
-            <Fade>
+            <Fade duration={500}>
           <p>
             Pickleball is my new favorite sport.
           </p>
@@ -117,7 +120,7 @@ function about() {
 
       </section>
       <section className="section-six">
-            <Fade>
+            <Fade duration={500}>
           <p>
               Traveling is my guilty pleasure.
           </p>
@@ -126,7 +129,7 @@ function about() {
 
       </section>
       <section className="section-seven">
-            <Fade>
+            <Fade duration={500}>
           <p>
 
         Reading is my escape.
@@ -135,7 +138,7 @@ function about() {
 
       </section>
       <section className="section-eight">
-            <Fade>
+            <Fade duration={500}>
           <p>
 
         I love my nature walks.
@@ -144,7 +147,7 @@ function about() {
 
       </section>
       <section className="section-nine">
-            <Fade>
+            <Fade duration={500}>
           <p>
 
         Board games with family is a must.
