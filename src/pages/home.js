@@ -24,8 +24,9 @@ function Home() {
         </a>
 
         <Fade duration={500}>
-          <h1 style={{display:"none"}}>Home page</h1>
+          <h1 style={{display:"none"}}>Aria Germann Counseling</h1>
           <h1 className='heading-name'>Home</h1>
+          <h2 style={{display:"none"}}>Home page</h2>
           <h2 className="sub-heading">A Safe Haven for Your Mental Health in Charlotte</h2>
         </Fade>
 
