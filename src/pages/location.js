@@ -25,7 +25,7 @@ function location() {
       <section className="location-section-one">
         <div className="come-see-me-box">
           <h1 style={{display:"none"}}>location page</h1>
-          <h1>Charlotte, NC Therapy with Aria: Healing and Growth in the Queen City</h1>
+          <h2 className="sub-heading" style={{ color: '#175676', textAlign: 'center'}}>Charlotte, NC Therapy with Aria: Healing and Growth in the Queen City</h2>
           <Fab variant="extended" color="primary">
             <NavigationIcon sx={{ mr: 1 }} />
               Map
@@ -34,6 +34,10 @@ function location() {
       </section>
 
       <section className="location-section-two">
+        
+      </section>
+
+      <section className="location-section-three">
         {/* <Fab variant="extended" color="primary">
           <NavigationIcon sx={{ mr: 1 }} />
             Map

@@ -29,14 +29,13 @@
         width: 35vw;
     }
 
-    h1 {
-        margin: 0px 0px 42px;
-        padding: 0px;
+    h2 {
+        padding: 10px;
     }
 
 }
 @media screen and (max-width: 1200px) {
-// FIXME TODO make sure that the new map button's z-index is not going over the navigation side bar. 
+// FIXME TODO make sure that the new map button's z-index is not going over the navigation side bar.
     .location-section-one {
         .come-see-me-box{
             width:55vw;
