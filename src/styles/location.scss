@@ -8,16 +8,24 @@
     flex-direction: column;
 }
 
+
+
 .location-section-one {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 400px;
     width: 100vw;
+    padding: 43px;
     background-image: url('https://images.unsplash.com/photo-1546387903-6d82d96ccca6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2942&q=80');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    .card-container {
+        width: 50vw;
+        margin: 42px;
+    }
 
     .come-see-me-box {
         display: flex;
@@ -34,11 +42,125 @@
     }
 
 }
+
+.location-section-two {
+    background-color: $dark-blue;
+    padding: 42px;
+    width: 100vw;
+    font-size: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+
+    .address-container {
+        text-align: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        color: white;
+        margin: 8px;
+        width: 400px;
+        place-items: center;
+
+        .address-icon {
+            font-size: 2em;
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        .address-wrapper {
+
+            h4 {
+                margin: 8px;
+                text-align: center;
+            }
+        }
+
+    }
+
+    .phone-container {
+        text-align: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 400px;
+        place-items: center;
+
+        .phone-icon {
+            color: white;
+            font-size: 2em;
+            margin-right: 20px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+.location-section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 4em;
+        color: $pink;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .input {
+            margin: 12px;
+        }
+
+        .text-box {
+            width: 75vw;
+            max-width: 750px;
+        }
+    }
+}
 @media screen and (max-width: 1200px) {
 // FIXME TODO make sure that the new map button's z-index is not going over the navigation side bar.
     .location-section-one {
+        .card-container {
+            width: 75vw;
+            margin: 42px;
+        }
         .come-see-me-box{
             width:55vw;
+        }
+    }
+
+    .location-section-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.5em;
+
+    .address-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .phone-container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .location-section-three {
+        h1 {
+            font-size: 3em;
         }
     }
 }
