@@ -61,13 +61,15 @@ Charlotte, NC Therapy with Aria: Healing and Growth in the Queen City
         </Typography>
       </CardContent>
       <CardActions>
-        <a href="#map-container">
+        <a href="#map-container" className="to-map-button">
           <Fab variant="extended" color="primary">
             <NavigationIcon sx={{ mr: 1 }} />
               Map
             </Fab>
-          </a>
-        <Button size="small">LinkedIn</Button>
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/aria-crawford-435446179/" className="linkedin-button">
+              <Button size="small" className="linkedin-button">LinkedIn</Button>
+            </a>
       </CardActions>
     </Card>
       </section>
@@ -99,7 +101,7 @@ Charlotte, NC Therapy with Aria: Healing and Growth in the Queen City
             label="Message"
             multiline
             rows={4}
-            placeholder="Let me know what's up?"
+            placeholder="Let me know what's going on?"
           />
         </Box>
       </section>

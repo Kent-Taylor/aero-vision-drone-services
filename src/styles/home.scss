@@ -111,11 +111,11 @@
                     text-shadow: -7px 10px 9px rgb(0, 0, 0);
                     font-weight: 600;
                     z-index: 1;
-                    position: absolute;
-                    bottom: -550px;
+                    position:sticky;
+                    bottom: -700px;
                     left: 350px;
                     font-size: 9em;
-                    color: white;
+                    color: $pink;
             }
         }
 
@@ -265,10 +265,12 @@
                 }
 
                 h1 {
+                    position: absolute;
                     font-weight: 500;
-                    bottom: -160px;
+                    bottom: -200px;
                     left: auto;
-                    font-size: 4.5em;
+                    font-size: 3.5em;
+                    padding: 20px;
                 }
             }
 
