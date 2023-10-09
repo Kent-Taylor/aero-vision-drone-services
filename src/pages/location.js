@@ -12,6 +12,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Iframe from 'react-iframe'
 
 import '../styles/location.scss';
 import TransparentLogo from '../images/ariaLogoTransparent.png'
@@ -106,10 +107,15 @@ Charlotte, NC Therapy with Aria: Healing and Growth in the Queen City
         </Box>
       </section>
 
-      <section className="location-section-4">
+      <section className="location-section-four">
         <div id="map-container">
-        map
-        </div>
+          <Iframe
+            url="https://www.google.com/maps/d/embed?mid=1hNwlr0CVbP5elMkQ7Jr6rSUL9Zg&hl=en_US&ehbc=2E312F"
+            height="350px"
+            className="map"
+            display="block"
+            position="relative"/>
+          </div>
       </section>
     </div>
   );
