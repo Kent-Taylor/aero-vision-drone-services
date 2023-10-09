@@ -23,8 +23,9 @@
       justify-content: center;
       align-items: center;
       flex-direction: row;
-      background: linear-gradient(0deg, rgb(255 255 255) 0%, rgba(252, 175, 163, 1) 52%);
+      background: linear-gradient(46deg, rgb(255, 255, 255) 0%, #175676 38%);
       width: 100vw;
+
       .left {
         padding: 200px 0px 130px 200px;
         img {
@@ -43,7 +44,7 @@
         z-index: 1;
         min-width: 642px;
         max-width: 700px;
-        background-color: $tan;
+        background-color: white;
         -webkit-box-shadow: 5px 5px 23px 5px #000000;
         box-shadow: 5px 5px 23px 5px #000000;
         text-align: center;
@@ -75,9 +76,16 @@
     }
 
     .section-two {
-        padding: 42px 300px;
-        text-align: center;
-        font-size: 1.4em;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      padding: 0px 300px;
+      text-align: center;
+      font-size: 1.4em;
+      max-width: 900px;
+
+
       }
 
       .cursive {
@@ -141,7 +149,7 @@
         flex-direction: column;
         width: 50vw;
         text-align: center;
-        margin: 42px;
+        // margin: 42px;
 
         p {
           color: #175676;
@@ -209,6 +217,8 @@
   height: 2px;
   background-color: $coral;
   font-weight: 200;
+  max-width: 255px;
+  margin: 42px;
 }
 
   @media only screen and (max-width: 1200px) {
@@ -227,14 +237,13 @@
           }
         }
         .right {
-          background-color: $tan;
           margin: 0px 10px 0px 200px;
           width: 100vw;
           box-shadow: none;
           z-index: 0;
 
           p {
-            padding: 0px 142px;
+            padding: 0px 175px;
             z-index: 0;
             color: $dark-blue;
           }
@@ -251,17 +260,12 @@
       }
 
       .section-two {
-        padding: 0px 42px 100px;
+        padding: 0px 42px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 15px;
-
-        p {
-          margin: 140px 0px 0px
-        }
-
 
               }
               .owner-pic-2 {
