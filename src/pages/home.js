@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Fade, Slide } from "react-awesome-reveal";
 import Subscribe from "../components/Subscribe";
 import '../styles/home.scss';
-import TransparentLogo from '../images/ariaLogoTransparent.png'
+import NavLogo from '../images/aero-vision-logo-nav.jpg'
 import OwnerPic from '../images/ownerProfile.JPG'
 import Button from '@mui/material/Button';
 
@@ -20,14 +20,18 @@ function Home() {
     <div className="home">
       <header className="home-header">
         <a href="/home" className="logo-link">
-                <img className='transparent-logo' src={TransparentLogo} alt="aria germann counseling logo transparent png" />
+                <img className='transparent-logo' src={NavLogo} alt="aria germann counseling logo transparent png" />
         </a>
-
+{/* This is display none because
+i don't want it to show up, but it exists for SEO purposes
+*/}
         <Fade duration={500}>
-          <h1 style={{display:"none"}}>Aria Germann Counseling</h1>
+          <h1 style={{display:"none"}}>AeroVision Aerial Services</h1>
           <h1 className='heading-name'>Home</h1>
           <h2 style={{display:"none"}}>Home page</h2>
-          <h2 className="sub-heading">A Safe Haven for Your Mental Health in Charlotte</h2>
+          <h2 style={{display:"none"}} className="sub-heading">professional drone pilot photography and videography</h2>
+          <h2 style={{display:"none"}} >drone videographer and drone photographer Powel, Farragut, Halls, Knoxville Tennessee, TN</h2>
+          <h2 style={{display:"none"}} >real estate wedding event elite kent taylor Powel, Farragut, Halls, Knoxville Tennessee, TN</h2>
         </Fade>
 
         </header>
